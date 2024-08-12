@@ -1,0 +1,738 @@
+.fade-out {
+    animation: fadeOut 0.1s forwards;
+}
+
+.fade-in {
+    animation: fadeIn 0.1s forwards;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.photo_model_judge {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.photo_model_judge a {
+    font-size: 20px;
+}
+
+.photo_model_judge_phone {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.photo_model_judge_phone a {
+    font-size: 20px;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 200ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.name_d {
+    font-weight: 600;
+    font-size: 20px !important;
+}
+
+.name_b {
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+    width: 100%;
+    text-align: left;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 200ms ease-out;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 800px) {
+    .lll {
+        padding-top: 8px;
+    }
+
+    .llll {
+        padding-top: 8px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .vvv {
+        font-size: 26px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+
+    .Jusge_pass {
+        text-align: left;
+    }
+
+    .rules_category {
+        text-align: left;
+        margin: 0;
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .rule_category {
+        line-height: 28px;
+        background-repeat: no-repeat;
+        width: 80%;
+        margin: auto;
+    }
+
+    .name_cat {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+
+    .rule_cat {
+        width: 90%;
+        margin: auto;
+        font-size: 18px;
+    }
+
+    .reviews_f {
+        justify-content: center;
+        width: 70%;
+    }
+
+    .list_person {
+        display: flex;
+        justify-content: center;
+        width: 30%;
+    }
+
+    .JudgePage {
+        display: flex;
+    }
+
+    .list_person_phone {
+        display: none;
+    }
+
+    .list_person_phone_btn {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .list_person {
+        overflow-y: scroll;
+        max-height: 800px;
+    }
+
+    .photo_model_judge_phone {
+        display: block;
+    }
+
+
+    .reviews_f {
+        display: flex;
+        justify-content: center;
+    }
+
+    .top_judge_phone {
+        display: block;
+    }
+
+    .top_judge_pc {
+        display: none;
+    }
+
+    .numberModel {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 32px;
+        color: black;
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+        border: solid 4px #10dfe6;
+        border-radius: 16px;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    .list_person {
+        overflow-y: scroll;
+        max-height: 470px;
+    }
+
+    .photo_model_judge {
+        display: block;
+    }
+
+    .reviews_f {
+        display: block;
+    }
+
+    .top_judge_phone {
+        display: none;
+    }
+
+    .top_judge_pc {
+        display: block;
+    }
+
+    .form_judge, .top_judge_pc {
+        display: flex;
+        width: 40%;
+        justify-content: center;
+    }
+
+    .top_judge_pc div {
+        width: 300px;
+    }
+
+    .numberModel {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: black;
+        line-height: 32px;
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+        border: solid 4px #10dfe6;
+        border-radius: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .reviews_f {
+        width: 75%;
+    }
+
+    .list_person {
+        width: 25%;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .reviews_f {
+        width: 80%;
+    }
+
+    .list_person {
+        width: 20%;
+    }
+
+    .photo_model_judge img {
+        max-width: 400px;
+        max-height: 300px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .reviews_f {
+        width: 80%;
+    }
+
+    .list_person {
+        width: 20%;
+    }
+
+    .photo_model_judge img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .vvv {
+        font-size: 22px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .mark {
+        left: 0;
+        top: 0!important;
+    }
+
+    .Jusge_pass {
+        text-align: left;
+    }
+
+    .rules_category {
+        margin: 0;
+        margin-top: 22px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .rule_category {
+        line-height: 22px;
+        background-repeat: no-repeat;
+        width: 90%;
+        margin: auto;
+    }
+
+    .name_cat {
+        text-align: left;
+        font-size: 17px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+
+    .rule_cat {
+        text-align: left;
+        width: 90%;
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .list_person {
+        display: none;
+    }
+
+    .reviews_f {
+        width: 100%;
+    }
+
+    .JudgePage {
+        display: block;
+    }
+
+    .list_person_phone {
+        display: block;
+    }
+
+    .JudgePage {
+        position: relative;
+    }
+
+    .list_person_phone_btn svg {
+        margin-top: -30px;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    .list_person_phone {
+        width: 30%;
+        margin-left: 20px;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: 0.5px solid rgba(0, 0, 0, 0.416);
+        border-radius: 10px;
+        padding: 10px;
+        z-index: 2;
+        height: auto;
+        overflow-y: auto;
+    }
+
+    .list_person_phone ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .list_person_phone li {
+        margin-top: 0;
+    }
+
+    .div_judge {
+        margin-left: -50px;
+    }
+
+    .range_block_all {
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .list_person_phone {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .list_person_phone {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .div_judge {
+        margin-left: -30px;
+    }
+}
+
+.lklk {
+    display: flex;
+    justify-content: center;
+}
+
+.Jusge_pass {
+    text-align: center;
+}
+
+.button {
+    display: block;
+}
+
+.person_info_judge a {
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.list_person {
+    font-size: 12px;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.list_person ul {
+    margin: 0;
+    padding: 0;
+}
+
+.list_person ul li {
+    transition: 0.2s ease-in-out;
+}
+
+.name_d {
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.JudgePage {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.list_person_phone_btn {
+    cursor: pointer;
+}
+
+.title_judge {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.mark {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+    position: absolute;
+    top: 116px;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 769px) {
+    .title_judge {
+        top: 100%
+    }
+}
+
+.input_none {
+    display: none;
+}
+
+.person_none {
+    text-align: center;
+    width: 100%;
+}
+
+#pass,
+#next,
+#last {
+    background: linear-gradient(90deg, #10dfe6 0%, rgba(16, 223, 230, 0.86) 100%);
+    border-radius: 36px;
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.dis_none_button {
+    display: none;
+}
+
+.button_access {
+    margin-top: 32px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 38px;
+    margin-left: 8px;
+}
+
+.b_div {
+    text-align: right;
+    width: 268px;
+}
+
+.button_judge {
+    width: 172px;
+    height: 36px;
+    background: linear-gradient(90deg, #10dfe6 0%, rgba(16, 223, 230, 0.86) 100%);
+    border-radius: 36px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    border: none;
+}
+
+.range {
+    text-align: center;
+    width: 300px;
+    margin-top: 16px;
+    margin-left: 8px;
+}
+
+.judge_model {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.range input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 260px;
+    height: 12px;
+    background: linear-gradient(90deg, #10dfe6 0%, rgba(16, 223, 230, 0.86) 100%);
+    border-radius: 36px;
+}
+
+.range input[type="range"]::-webkit-slider-thumb {
+    display: block;
+    background: #0029ff;
+    border-radius: 36px;
+    cursor: pointer;
+    width: 8px;
+    height: 24px;
+    -webkit-appearance: none;
+    box-shadow: 0 0 0 0 #0029ff;
+}
+
+/*.range input[type=range]::-moz-range-track {
+      border-radius: 10px/100%;
+      height: 5px;
+      border: 1px solid cyan;
+      background-color: #fff;
+  }
+  .range input[type=range]::-moz-range-thumb {
+      background: #ecf0f1;
+      border: 1px solid cyan;
+      border-radius: 10px/100%;
+      cursor: pointer;
+  }*/
+.button_judge {
+    margin-bottom: 11px;
+    margin-top: 36px;
+}
+
+.label_button {
+    color: black;
+    color: rgba(0, 0, 0, 0.48);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+
+.lll {
+    margin-right: 5px;
+    color: black;
+    font-size: 16px;
+}
+
+.llll {
+    color: black;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.submit_juding {
+    text-align: center;
+}
+
+.tab_none {
+    display: none;
+}
+
+.list_person ul {
+    list-style: none;
+}
+
+.list_person ul li {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.Jusge_pass {
+    color: black;
+    font-size: 24px;
+}
+
+.value {
+    position: absolute;
+    top: -20px;
+    left: 47.2%;
+    font-size: 14px;
+    color: #000000;
+}
+
+.range_block {
+    position: relative;
+    display: flex;
+}
+
+.list_person::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Указываем цвет ползунка прокрутки */
+.list_person::-webkit-scrollbar-thumb {
+    background-color: #10dfe6;
+    border-radius: 10px;
+    border: 0.5px #002aff49 solid;
+}
+
+/* Указываем цвет фона ползунка прокрутки */
+.list_person::-webkit-scrollbar-track {
+    background-color: #d9d9d9a8;
+    border-radius: 10px;
+}
+
+.photo_model_judge {
+    text-align: center;
+}
+
+.photo_model_judge img {
+    border-radius: 20px;
+    margin-top: 16px;
+}
+
+.photo_model_judge_phone img {
+    max-width: 300px;
+    max-height: 200px;
+    margin-left: 8px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.photo_model_judge_phone {
+    text-align: center;
+}
+
+.list_person .person_info_judge:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.list_person_phone {
+    overflow-x: hidden;
+}
+
+.list_person_phone::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Указываем цвет ползунка прокрутки */
+.list_person_phone::-webkit-scrollbar-thumb {
+    background-color: #10dfe6;
+    border-radius: 10px;
+    border: 0.5px #002aff49 solid;
+}
+
+/* Указываем цвет фона ползунка прокрутки */
+.list_person_phone::-webkit-scrollbar-track {
+    background-color: #d9d9d9a8;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.comment_div {
+    margin-top: 22px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.comment_div textarea {
+    width: 90%;
+    height: 256px;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 16px;
+    resize: none;
+    border: solid 2px #10dfe6   ;
+    background: transparent;
+}

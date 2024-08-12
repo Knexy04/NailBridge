@@ -1,0 +1,184 @@
+.error {
+    color: red;
+    display: flex;
+    border: 2px solid #151717;
+    width: 100%;
+    border-radius: 16px;
+    height: auto;
+    margin: auto;
+    background: #EAFAFA;
+    align-items: center;
+    gap: 8px;
+    animation: shake-horizontal 0.5s ease-in-out;
+}
+
+@keyframes shake-horizontal {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    20%,
+    60% {
+        transform: translateX(-10px);
+    }
+    40%,
+    80% {
+        transform: translateX(10px);
+    }
+    85% {
+        transform: translateX(8px);
+    }
+    90% {
+        transform: translateX(-8px);
+    }
+}
+
+
+.error svg {
+    margin-left: 16px;
+}
+
+.error p {
+    font-size: 16px;
+}
+
+
+.auth {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #cadee9;
+    background-image: linear-gradient(62deg, #cadee9 0%, #f8f1fe 58%);
+    overflow: hidden;
+}
+
+.form {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 512px;
+    border-radius: 20px;
+    /*border: 2px solid #2d79f3;*/
+    border: 2px solid #10dfe6;
+    box-shadow: 0 0 40px 4px rgba(255, 255, 255, 0.48);
+    margin-left: 50%;
+    margin-top: 6%;
+    transform: translate(-50%, 0);
+}
+
+.cups {
+    position: absolute;
+    left: 212px;
+    top: 26px;
+    transform: scale(0.7);
+    z-index: -1;
+}
+
+
+
+::placeholder {
+}
+
+.buttonsubmit:disabled{
+    color: #151717;
+    background: #dddddd;
+}
+
+.errorInput::placeholder {
+    color: red;
+}
+
+.defaultInput::placeholder {
+    color: gray;
+}
+
+.form button {
+    align-self: flex-end;
+}
+
+.flexcolumn > label {
+    color: #151717;
+    font-weight: 600;
+}
+
+.inputForm {
+    border: 1.5px solid #ecedec;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.errorInputForm{
+    border-color: red;
+    transition: 0.2s ease-in-out;
+}
+
+.input {
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    transition: 0.25s ease-in-out;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.inputForm:focus-within {
+    border: 1.5px solid #2d79f3;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.flexrow > div > label {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+.span {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #2d79f3;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buttonsubmit {
+    margin: 20px 0 10px 0;
+    background-color: #151717;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s ease-in-out;
+}
+
+
+@media screen and (max-width: 768px){
+    .form{
+        width: 360px;
+    }
+}

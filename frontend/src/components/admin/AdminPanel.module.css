@@ -1,0 +1,653 @@
+.error {
+    color: red;
+    display: flex;
+    border: 2px solid #151717;
+    width: 100%;
+    border-radius: 16px;
+    height: auto;
+    margin: auto;
+    background: #EAFAFA;
+    align-items: center;
+    gap: 8px;
+    animation: shake-horizontal 0.5s ease-in-out;
+}
+
+.login textarea {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.user {
+    padding-top: 32px;
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.userblock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoblock {
+    background: #10dfe6;
+    padding: 16px;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.strong2 {
+    font-size: 24px;
+    color: black;
+}
+
+.score {
+    background: #10dfe6;
+    padding: 16px;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.strong {
+    color: black;
+    font-size: 48px;
+}
+
+td a{
+    text-decoration: none;
+}
+
+.borderBlock label {
+    border-bottom: 4px solid #10dfe6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.borderBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+@keyframes shake-horizontal {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    20%,
+    60% {
+        transform: translateX(-10px);
+    }
+    40%,
+    80% {
+        transform: translateX(10px);
+    }
+    85% {
+        transform: translateX(8px);
+    }
+    90% {
+        transform: translateX(-8px);
+    }
+}
+
+
+.error svg {
+    margin-left: 16px;
+}
+
+.error p {
+    font-size: 16px;
+}
+
+
+.admin {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin article {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.reg {
+    border: solid 4px #10dfe6;
+    border-radius: 30px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    transition: 0.25s ease-in-out;
+}
+
+.reg label {
+    font-weight: 500;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.inputs article {
+    margin-top: 8px;
+}
+
+.login {
+    border: solid 2px rgba(0, 0, 0, 0.08);
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(4px);
+    border-radius: 16px;
+    padding-inline: 16px;
+    margin-bottom: 16px;
+    line-height: 20px;
+    height: 36px;
+}
+
+.reg:focus-within {
+    background: #10dfe6;
+}
+
+.submit {
+    position: relative;
+    border-radius: 16px;
+    border: solid 1px rgba(0, 0, 0, 0.08);
+    background: white;
+    margin-left: auto;
+    padding-inline: 16px;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+
+.submit:disabled:hover {
+    background: rgba(16, 223, 230, 0.72);
+    transition: 0.25s ease-in-out;
+}
+
+.submit:hover {
+    background: #10dfe6;
+    transition: 0.25s ease-in-out;
+}
+
+.users {
+    border: solid 4px #10dfe6;
+    border-radius: 30px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.count {
+    width: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.work {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work span {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.work aside {
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    opacity: 64%;
+}
+
+.second {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.judgetable {
+    padding: 16px;
+    border-radius: 20px;
+    border: solid 4px #10dfe6;
+}
+
+.judgetable input {
+    border-radius: 16px;
+    border: none;
+    margin: 0;
+    padding-inline: 16px;
+    height: 32px;
+
+    line-height: 32px;
+}
+
+#name {
+    width: 80%;
+}
+
+.yesno {
+    display: flex;
+    gap: 8px;
+}
+
+.judgetable button {
+    all: unset;
+    cursor: pointer;
+}
+
+.thrid {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.judgechoose {
+    border: solid 4px #10dfe6;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 100%;
+}
+
+.judgeselect {
+    border: solid 1px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    padding-inline: 8px;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.nomination label:before {
+    content: "";
+    display: flex;
+    width: 18px; /* Размер видимого флажка */
+    height: 16px;
+    border: 2px solid #10dfe6; /* Цвет и толщина границы флажка */
+    border-radius: 4px; /* Закругление углов флажка */
+    margin-right: 8px;
+    transition: 0.2s ease-in-out;
+}
+
+input[type="checkbox"]:checked + label:before {
+    background-color: #10dfe6; /* Цвет заполнения флажка */
+    border-color: #10dfe6; /* Цвет границы флажка */
+    content: "";
+    line-height: 20px;
+}
+
+.accept {
+    position: relative;
+    border-radius: 16px;
+    border: solid 1px rgba(0, 0, 0, 0.08);
+    background: white;
+    margin-left: auto;
+    padding-inline: 16px;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.accept:hover {
+    background: #10dfe6;
+    transition: 0.25s ease-in-out;
+}
+
+.errorInput {
+    border: red;
+}
+
+textarea {
+    resize: none;
+    height: 128px !important;
+    padding-top: 8px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.errorInput::placeholder {
+    color: white;
+}
+
+.errorInput {
+    background: darkslategray !important;
+    color: white;
+    transition: 0.25s ease-in-out;
+}
+
+.customFileUpload {
+    border: solid 1px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    padding-inline: 16px;
+    margin-bottom: 16px;
+    line-height: 48px;
+    background: #0e0e23;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.delete {
+    all: unset;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(32px);
+    border: solid 2px rgba(36, 36, 36, 0.24);
+    width: 50%;
+    text-align: center;
+    height: 64px;
+    cursor: pointer;
+    color: rgba(255,255,255,1);
+    transition: ease-in-out 0.25s;
+}
+
+.delete:disabled {
+    opacity: 50%;
+}
+.delete:disabled:hover {
+    background: rgba(16,223,230,0.48);
+}
+
+.delete:hover {
+    background: rgba(16,223,230,0.64);
+}
+
+.accept:disabled:hover {
+    background: rgba(16, 223, 230, 0.64);
+}
+
+.submit:disabled:hover {
+    background: rgba(16, 223, 230, 0.64);
+}
+
+.ffffff {
+    border: 4px solid #10dfe6;
+    border-radius: 30px;
+    width: 100%;
+    padding: 16px;
+}
+
+.imagetext_judge {
+    padding: 8px;
+    width: 100%;
+    z-index: 1;
+    border-radius: 0 0 16px 16px;
+    color: white;
+    background: rgba(0, 0, 0, 0.24);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    padding: 8px;
+}
+
+.add {
+    border: 4px solid #10dfe6;
+    border-radius: 30px;
+    width: 46%;
+    padding: 16px;
+}
+
+.nominationdel {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 2px solid #10dfe6;
+    padding: 8px;
+    padding-left: 16px;
+    border-radius: 16px;
+    align-items: center;
+}
+
+.del {
+    display: flex;
+    background: transparent;
+    transform: translateX(16px)
+}
+
+.tables {
+    margin: auto;
+    margin-top: 32px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+td {
+    font-size: 16px;
+    width: 120px;
+}
+
+thead{
+    background: #10dfe6;
+    border-radius: 16px;
+    height: 48px;
+}
+
+th {
+    font-size: 20px;
+    width: 128px;
+}
+
+table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    text-align: center;
+}
+
+@media screen and (min-width: 769px) {
+
+    .score {
+        width: 45%;
+    }
+    .borderBlock{
+        margin-inline: 24px;
+        width: 40%;
+    }
+
+    .admin {
+        padding: 64px;
+        gap: 32px;
+    }
+
+    .first {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .reg {
+        width: 512px;
+    }
+
+    .users {
+        width: 512px;
+    }
+
+    .comment {
+        width: 256px;
+    }
+
+    .judgetable {
+        width: 72%;
+    }
+
+    .judgetable input {
+        width: 144px;
+    }
+
+    .ffffff {
+        padding-bottom: 32px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .userblock{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .add {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        overflow-x: visible;
+    }
+
+    .thrid {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .admin {
+        padding: 16px;
+        gap: 32px;
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column;
+        gap: 16px
+    }
+
+    .reg {
+        width: 92%;
+        margin: auto;
+    }
+
+    .login {
+        line-height: 32px;
+        width: 100%;
+    }
+
+    .reg input {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .reg textarea {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .reg select {
+
+    }
+
+    .submit {
+        line-height: 28px;
+        margin-top: 16px;
+    }
+
+    .judgetable {
+        padding: 16px;
+        border-radius: 20px;
+        border: solid 4px #10dfe6;
+    }
+
+    .judgetable input {
+        border-radius: 16px;
+        border: none;
+        margin: 0;
+        padding-inline: 16px;
+        height: 32px;
+        width: 100%;
+        line-height: 32px;
+    }
+
+    #name {
+        width: 80%;
+    }
+
+    .yesno {
+        display: flex;
+        gap: 8px;
+    }
+
+    .judgetable button {
+        all: unset;
+        cursor: pointer;
+    }
+
+    /* Оптимизация для мобильных устройств */
+    @media screen and (max-width: 480px) {
+        .judgetable {
+            padding: 8px;
+            border-radius: 10px;
+            border: solid 4px #10dfe6;
+        }
+
+        .judgetable input {
+            padding-inline: 8px;
+            height: 24px;
+            line-height: 24px;
+        }
+
+        #name {
+            width: 100%;
+        }
+    }
+}
+
+
